@@ -1,0 +1,161 @@
+nav#menu ul{
+text-transform: uppercase; /* Deixa as letras maiusculas */
+list-style: none;
+position: absolute;
+top: 10px;
+left: 850px;
+}
+nav#menu{
+    display: block;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: rgba(138, 4, 4, 0.733);
+    padding: 10px;
+
+}
+nav#menu h1{
+    display: none;
+    
+}
+body{
+    background-color: rgba(138, 4, 4, 0.733);
+    margin: 0px;
+
+}
+header{
+    background-color: rgb(254, 255, 254);
+    padding-top: 60px; 
+    padding-bottom: 30px;
+    position: relative;
+}
+/* O bloco abaixo mexe na camisa do milan */
+img#img0{
+    width: 250px; 
+    position: absolute; 
+    left: 470px; 
+    top: 200px; 
+
+}
+/* O bloco abaixo mexe na camisa do real madrid */
+img#img1{
+    width: 250px; 
+    position: absolute; 
+    left: 900px; 
+    top: 200px; 
+}
+/* O bloco abaixo mexe na camisa do inter de milao */
+img#img2{
+    width: 250px; 
+    position: absolute; 
+    left: 5px; 
+    top: 200px;
+}
+/* O bloco abaixo mexe no texto da camisa do milan */
+h2#txt0{
+    width: 250px;
+    position: absolute;
+    left: 500px; 
+    top: 440px; 
+}
+/* O bloco abaixo mexe no texto da camisa do real madrid */
+h2#txt1{
+    width: 250px; 
+    position: absolute; 
+    left: 930px; 
+    top: 440px; 
+}
+/* O bloco abaixo mexe no texto da camisa do inter de milão */
+h2#txt2{
+    width: 250px; 
+    position: absolute; 
+    left: 20px; 
+    top: 440px; 
+}
+/* O bloco abaixo mexe no preço da camisa do milan */
+h2#prc0{
+    width: 250px; 
+    position: absolute; 
+    left: 556px; 
+    top: 532px; 
+    color: purple;
+}
+/* O bloco abaixo mexe no preço da camisa do inter de milão */
+h2#prc1{
+    width: 250px; 
+    position: absolute; 
+    left: 75px; 
+    top: 532px; 
+    color: purple;
+}
+/* O bloco abaixo mexe no preço da camisa do real madrid */
+h2#prc2{
+    width: 250px; 
+    position: absolute; 
+    left: 986px; 
+    top: 532px; 
+    color: purple;
+}
+/* O bloco abaixo mexe no preço à vista da camisa do milan */
+h3#vst0{
+    width: 250px; 
+    position: absolute; 
+    left: 500px; 
+    top: 570px; 
+}
+/* O bloco abaixo mexe no preço à vista do inter de milão */
+h3#vst1{
+    width: 250px; 
+    position: absolute; 
+    left: 22px; 
+    top: 570px; 
+}
+/* O bloco abaixo mexe no preço à vista do real madrid */
+h3#vst2{
+    width: 250px; 
+    position: absolute; 
+    left: 934px; 
+    top: 570px; 
+
+}
+/* O bloco abaixo mexe na descrição da camisa do real madrid */
+h4#dcr0{
+    width: 250px; 
+    position: absolute; 
+    left: 934px; 
+    top: 602px; 
+}
+/* O bloco abaixo mexe na descrição da camisa do inter de milão */
+h4#dcr1{
+    width: 250px; 
+    position: absolute; 
+    left: 20px; 
+    top: 602px; 
+}
+/* O bloco abaixo mexe na descrição da camisa do milan */
+h4#dcr2{
+    width: 250px; 
+    position: absolute; 
+    left: 500px; 
+    top: 602px; 
+}
+h1#n0{
+    width: 250px; 
+    position: absolute; 
+    left: 10px;
+    top: -80px;
+    font-size: 100px;
+}
+nav#menu a:link{
+    text-decoration: none;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+nav#menu a:visited{
+    color:black;
+}
+nav#menu a:hover{
+    color:wheat;
+    transition: all 0.5s ease;
+}
